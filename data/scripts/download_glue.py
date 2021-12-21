@@ -9,8 +9,8 @@ import zipfile
 
 TASKS = ["MNLI", "SNLI"]
 TASK2PATH = {
-    "MNLI":'https://firebasestorage.googleapis.com/v0/b/mtl-sentence-representations.appspot.com/o/data%2FMNLI.zip?alt=media&token=50329ea1-e339-40e2-809c-10c40afff3ce',
-    "SNLI":'https://firebasestorage.googleapis.com/v0/b/mtl-sentence-representations.appspot.com/o/data%2FSNLI.zip?alt=media&token=4afcfbb2-ff0c-4b2d-a09a-dbf07926f4df',
+    "MNLI":'https://cims.nyu.edu/~sbowman/multinli/multinli_1.0.zip',
+    "SNLI":'https://nlp.stanford.edu/projects/snli/snli_1.0.zip',
 }
 
 def download_and_extract(task, data_dir):
